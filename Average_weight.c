@@ -6,5 +6,4 @@ int main()
     int z;
     z=3*a-x-y;
     printf("%d",z);
-    
 }
