@@ -4,7 +4,11 @@ int main()
     int a;
     scanf("%d",&a);
     if(a%2!=0)
-    printf("weird");
+    {
+        printf("weird");
+    }
     else
-    printf("not weird");
+    {
+        printf("not weird");
+    }
 }
