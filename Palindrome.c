@@ -11,11 +11,7 @@ int main()
         s=s*10+r;
     }
     if(s==n)
-    {
-        printf("Palindrome");
-    }
+    printf("True");
     else
-    {
-        printf("Not Palindrome");
-    }
+    printf("False");
 }
