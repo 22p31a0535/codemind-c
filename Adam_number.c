@@ -11,20 +11,16 @@ int main()
         s=s*10+d;
         n=n/10;
     }
-    int b,c,r=0,f;
+    int b,c,rev=0,f;
     b=s*s;
     while(b>0)
     {
         f=b%10;
-        r=r*10+f;
+        rev=rev*10+f;
         b=b/10;
     }
-    if(r==k)
-    {
-        printf("True");
-    }
+    if(rev==k)
+    printf("True");
     else
-    {
-        printf("False");
-    }
+    printf("False");
 }
