@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,s;
+    int n;
     scanf("%d",&n);
-    s=n%9;
-    printf("%d",s);
+    printf("%d",n%9);
 }
